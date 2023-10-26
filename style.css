@@ -1,0 +1,329 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+
+body{
+    background-color: #2D1B07;
+}
+
+.content{
+    height: 150vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(Chocolatewallpaper.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 30px;
+}
+
+.logo{
+    height: 100px;
+    width: auto;
+}
+
+nav ul{
+    margin-right: 9%;
+}
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.2s;
+}
+
+nav ul li a:hover{
+    /* color:#9A7B4F; */
+    font-size: larger;
+    text-shadow: 0px 0px 13px black;
+}
+
+button{
+    border: none;
+    /* background: #84553c; */
+    background-image: linear-gradient(to bottom right, #DDC088, #84553c);
+    /* padding: 12px 30px; */
+    padding: 12px;
+    border-radius: 50%;
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+    transition: 0.2s ease;
+}
+
+i{
+    font-size: 30px;
+}
+
+button:hover{
+    transform: scale(1.2);
+    cursor: pointer;
+    box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 40px -4px rgba(0,0,0,0.75);
+}
+
+.homecontent{
+    display: flex;
+    justify-content: center;
+}
+
+.biglogo{
+    width: 80%;
+    height: auto;
+}
+
+.bestsellertext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    font-size: 25px
+}
+
+.bestseller{
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.bestseller ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+.bestseller ul li a img{
+    height: 150px;
+    width: auto;
+    background-color: #84553c;
+    border-radius: 20px;
+    transition: 0.2s;
+    padding: 15px;
+    box-shadow: 0px 0px 0px 5px #DDC088;
+    -webkit-box-shadow: 0px 0px 0px 5px #DDC088;
+    -moz-box-shadow: 0px 0px 0px 5px #DDC088;
+}
+
+.bestseller ul li a img:hover{
+    transform: scale(1.3);
+}
+
+/* content2 */
+.content2{
+    height: 150vh;
+    width: 100%;
+    background: url(motto.png);
+    background-size: cover;
+    background-position: center;
+}
+
+/* content3 */
+.content3{
+    /* height: 150vh; */
+    width: 100%;
+    background: url(chocopattern.png);
+    /* background-size: cover; */
+    background-position: center;
+    background-repeat: repeat-y;
+}
+
+.whatsnewtext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 25px
+}
+.whatsnewimg{
+    display: flex;
+    justify-content: center;
+}
+
+.ourproductstext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 25px
+}
+
+.left{
+    display: flex;
+    justify-content: right;
+}
+
+.right{
+    display: flex;
+    justify-content: left;
+}
+
+/* scrollbar */
+::-webkit-scrollbar{
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb{
+    background: #84553c;
+    border-radius: 6px;
+}
+
+/* about us */
+.aboutus{
+  background: url(chocopattern.png);
+  height: 150vh;
+  width: 100%;
+  color: white;
+  padding: 10%;
+  text-align: center;
+}
+
+.aboutus h1{
+  font-size: 50px;
+}
+
+.aboutus p{
+  padding-top: 25px;
+  padding-left: 10%;
+  padding-right: 10%;
+  font-size: 25px;
+}
+
+/* Lokasi  */
+.lokasi{
+  width: 100%;
+  height: 150vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-bottom: 150px;
+  background: url(chocopattern.png);
+}
+
+ .lokasi h1{
+  color: #fff;
+  margin-bottom: 50px;
+ }
+
+ .lokasi iframe{
+  width: 80%;
+  height: 500px;
+   padding-top: 50px;
+ }
+
+ .lokasi p{
+  color: #fff;
+  margin-top: 20px;
+ }
+
+.lokasi img{
+  width: 40%;
+  height: auto;
+  border-radius: 10px;
+  padding-bottom: 30px;
+}
+
+/* Footer  */
+.footer {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    background-color: #000000;
+  }
+
+  .footer h4{
+    margin-bottom: 25px;
+    margin-top: 20px;
+    font-weight: 600;
+  }
+
+.icons {
+ font-size: 30px;
+
+}
+
+/* responsive */
+@media all and (max-width: 768px) {
+  nav{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-right: 10%;
+    padding-left: 10%;
+    font-size: 15px;
+}
+  .bestseller{
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+  .bestsellertext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 7%;
+    padding-bottom: 1%;
+    font-size: 10px
+}
+.whatsnewtext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 10px
+}
+.whatsnewimg{
+    display: flex;
+    justify-content: center;
+  height: 20%;
+  width: auto;
+}
+  .ourproductstext{
+    color: white;
+    display: flex;
+    justify-content: center;
+    padding-top: 10%;
+    padding-bottom: 1%;
+    font-size: 10px
+}
+
+.left{
+    display: flex;
+    justify-content: right;
+  height: 20%;
+  width: auto;
+}
+
+.right{
+    display: flex;
+    justify-content: left;
+  height: 20%;
+  width: auto;
+}
+}
